@@ -2,24 +2,15 @@ import React from 'react';
 import HeroSection from '../../HeroSection';
 import { homeObjFive } from '../HomePage/Data';
 import './About.css'
+import Accordion from './faq/Accordion';
 
 function About() {
-  
-const faqs = document.querySelectorAll(".faq");
-
-faqs.forEach((faq) => {
- faq.addEventListener("click", () => {
-   faq.classList.toggle("active");
- });
-});
-
-
 
   return (
     <>
       
       <HeroSection {...homeObjFive} />
-      
+      <Accordion/>
       
     </>
   );

@@ -11,11 +11,13 @@ function Form() {
   return (
     <div className='form-content-right'>
 
-      <form className='form' action="https://formsubmit.co/ee20d430c0d8c2cc2058dfa5d4f5db6f" method="POST">
-
+      <form className='form' action="https://formsubmit.co/vaiefazassistencia@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false"/>
         <h1>Conta pra gente sobre o que precisa resolver na sua máquina. <br/><br/> <p>Em breve enviaremos um e-mail para continuar a conversa :D </p></h1>
         <input type="hidden" name="_template" value="table"/>
-        
+        <input type="hidden" name="_next" value="https://vaiefaz.vercel.app/confirmado"/>
+
+
           <div className='form-inputs'>
             <label htmlFor='Nome' className='form-label'>Nome:</label>
             <input id='Nome'  type='text' name='Nome' className='form-input' placeholder='Digite seu nome'  required/>

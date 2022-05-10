@@ -6,7 +6,7 @@ export const Data = [
     },
     {
       question: 'Como faço para adiquirir o Parsec?',
-      answer: 'Basta acessar o site oficial. O aplicativo está disponível para Windows, Linux e macOS.'
+      answer: 'Basta fazer o download através do link nesta página. O aplicativo está disponível para Windows, Linux e macOS.'
     },
     {
       question: 'Depois de quanto tempo entrarão em contato comigo?',

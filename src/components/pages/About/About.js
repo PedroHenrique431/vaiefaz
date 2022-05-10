@@ -3,6 +3,7 @@ import HeroSection from '../../HeroSection';
 import { homeObjFive } from '../HomePage/Data';
 import './About.css'
 import Accordion from './faq/Accordion';
+import Services from './Services/Index';
 
 function About() {
 
@@ -10,6 +11,7 @@ function About() {
     <>
       
       <HeroSection {...homeObjFive} />
+      <Services/>
       <Accordion/>
       
     </>

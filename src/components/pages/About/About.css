@@ -1,0 +1,50 @@
+.sectionn{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+.pergunta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pergunta h3{
+    font-size: 1.8rem;
+}
+
+.resposta{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.resposta p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .resposta{
+    max-height: 300px;
+}
+
+.faq.active svg{
+    transform: rotate(180deg);
+}
+
+svg{
+    transition: transform .5s ease-in;
+}

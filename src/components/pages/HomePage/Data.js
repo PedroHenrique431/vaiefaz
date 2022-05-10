@@ -42,3 +42,18 @@ export const homeObjOne = {
     img: 'images/svg-3.svg',
     alt: 'Credit Card'
   };
+
+  export const homeObjFour = {
+    lightBg: false,
+    LightText: true,
+    LightTextDesc: true,
+    topLine: '',
+    headline: 'Envio confirmado!',
+    description:
+      'Acabamos de receber a resposta do seu formulário, em breve entraremos em contato! Por favor, aguarde enquanto preparamos tudo.',
+    buttonLabel: 'Voltar',
+    imgStart: '',
+    exist: true,
+    img: 'images/svg-5.svg',
+    alt: 'Credit Card'
+  };

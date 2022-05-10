@@ -57,3 +57,18 @@ export const homeObjOne = {
     img: 'images/svg-5.svg',
     alt: 'Credit Card'
   };
+
+  export const homeObjFive = {
+    lightBg: true,
+    LightText: false,
+    LightTextDesc: false,
+    topLine: '',
+    headline: 'Sobre Nós',
+    description:
+      'A Vai e Faz é uma assitência técnica focada em soluções para software. Nossos métodos consistem no auxílio remoto e dessa forma podemos oferecer a você um custo bem menor sem precisar sair do conforto da sua casa!',
+    buttonLabel: '',
+    imgStart: '',
+    exist: false,
+    img: 'images/svg-6.svg',
+    alt: 'Credit Card'
+  };

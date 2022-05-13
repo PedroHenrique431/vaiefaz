@@ -23,7 +23,6 @@
   width: 100%;
   text-align: center;
   cursor: pointer;
-  
 }
 
 .Wrap h1 {
@@ -33,6 +32,7 @@
 
 .Wrap spam{
     margin-right: 1rem;
+    
 }
 
 .Dropdown{
@@ -46,7 +46,6 @@
   align-items: center;
   border-bottom: 1px solid #1c2237;
   border-top: 1px solid #1c2237;
-  
 }
 
 .Dropdown p{

@@ -12,7 +12,6 @@ function Form() {
       Telefone: "",
       Email: "",
       Problema: "",
-      Arquivo: "",
     });
   
     const {
@@ -20,7 +19,6 @@ function Form() {
       Telefone,
       Email,
       Problema,
-      Arquivo,
     } = data;
   
     const handleCHange = (e) => {

@@ -24,7 +24,7 @@ function Form() {
     } = data;
   
     const handleCHange = (e) => {
-      setData({ ..."", data, [e.target.name]: e.target.value });
+      setData({ ...data, [e.target.name]: e.target.value });
     };
   
     const handleSubmit = async (e) => {

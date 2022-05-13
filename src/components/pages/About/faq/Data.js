@@ -2,7 +2,7 @@ export const Data = [
     
     {
       question: 'Como é feita a conexão?',
-      answer: 'Usamos um aplicativo chamado "Parsec". Ele é gratuito e suuuper leve. Com ele, o técnico poderá acessar sua máquina remotamente para fazer os ajustes necessários (assim que você conceder permissão a ele).'
+      answer: 'Usamos um aplicativo chamado "Parsec". Ele é gratuito e suuuper leve. Com ele, o técnico poderá acessar sua máquina, remotamente, para fazer os ajustes necessários (assim que você conceder permissão a ele).'
     },
     {
       question: 'Posso desinstalar o Parsec após os procedimentos?',

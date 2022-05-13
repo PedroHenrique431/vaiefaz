@@ -8,6 +8,7 @@ import InputMask from 'react-input-mask';
 function Form() {
 
     const [data, setData] = useState({
+      
       Nome: "",
       Telefone: "",
       Email: "",
@@ -15,6 +16,7 @@ function Form() {
     });
   
     const {
+      
       Nome,
       Telefone,
       Email,
@@ -40,6 +42,7 @@ function Form() {
             },
             body: JSON.stringify([
               [
+                "",
                 new Date().toLocaleString(),
                 Nome,
                 Telefone,

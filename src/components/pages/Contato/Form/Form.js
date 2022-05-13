@@ -90,7 +90,7 @@ function Form() {
 
           <div className='form-inputs'>
             <label htmlFor='Telefone' className='form-label'>Telefone (Whatsapp):</label>
-            <InputMask id='Telefone' value={Telefone} name='Telefone' className='form-input' mask="(99) 9999-9999" onChange={handleCHange}></InputMask>
+            <InputMask id='Telefone' value={Telefone} name='Telefone' className='form-input' mask="(99) 99999-9999" onChange={handleCHange}></InputMask>
           </div>
 
           <div className='form-inputs'>

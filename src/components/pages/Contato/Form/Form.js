@@ -54,7 +54,8 @@ function Form() {
         );
         await response.json();
         setData({
-          ...data,
+          ..."",
+          data,
                 Nome,
                 Telefone,
                 Email,
